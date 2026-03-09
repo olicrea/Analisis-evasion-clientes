@@ -1,25 +1,27 @@
-En construcción.
+# Análisis de Evasión de clientes: Caso TelecomX
 
-#### Diccionario de datos
+Este proyecto presenta un análisis detallado sobre la fuga de clientes (Churn) en la empresa TelecomX, con el objetivo de identificar patrones predictivos que permitan mejorar las estrategias de retención.
 
-- `customerID`: número de identificación único de cada cliente
-- `Churn`: si el cliente dejó o no la empresa
-- `gender`: género (masculino y femenino)
-- `SeniorCitizen`: información sobre si un cliente tiene o no una edad igual o mayor a 65 años
-- `Partner`: si el cliente tiene o no una pareja
-- `Dependents`: si el cliente tiene o no dependientes
-- `tenure`: meses de contrato del cliente
-- `PhoneService`: suscripción al servicio telefónico
-- `MultipleLines`: suscripción a más de una línea telefónica
-- `InternetService`: suscripción a un proveedor de internet
-- `OnlineSecurity`: suscripción adicional de seguridad en línea
-- `OnlineBackup`: suscripción adicional de respaldo en línea
-- `DeviceProtection`: suscripción adicional de protección del dispositivo
-- `TechSupport`: suscripción adicional de soporte técnico, menor tiempo de espera
-- `StreamingTV`: suscripción de televisión por cable
-- `StreamingMovies`: suscripción de streaming de películas
-- `Contract`: tipo de contrato
-- `PaperlessBilling`: si el cliente prefiere recibir la factura en línea
-- `PaymentMethod`: forma de pago
-- `Charges.Monthly`: total de todos los servicios del cliente por mes
-- `Charges.Total`: total gastado por el cliente
+## 📋 Resumen del Proyecto
+El análisis aborda el proceso completo de ciencia de datos, desde la extracción y limpieza de información semiestructurada hasta la identificación de factores clave de abandono, como la antigüedad del usuario, tipos de contrato y métodos de pago.
+
+## 🛠️ Herramientas Utilizadas
+El análisis se desarrolló en Python utilizando las siguientes librerías:
+* **Pandas & Numpy**: Para la manipulación y transformación de datos.
+* **Seaborn & Matplotlib**: Para la generación de visualizaciones estadísticas.
+
+## 📊 Hallazgos Principales
+* **Tasa de Abandono**: Se identificó una tasa de churn del **26.5%**, lo que representa que aproximadamente 1 de cada 4 clientes cancela el servicio.
+* **Perfil de Riesgo**: Los clientes adultos mayores (>= 65 años) y aquellos sin pareja o dependientes muestran una mayor propensión al abandono.
+* **Factores Contractuales**: El tipo de contrato y los cargos mensuales son variables críticas en la decisión de permanencia.
+
+## ⚙️ Proceso Técnico
+1. **Extracción**: Carga de datos desde repositorio externo en formato JSON[cite: 6, 7].
+2. **Transformación**: Normalización de estructuras anidadas y limpieza de 7,267 registros[cite: 9, 13].
+3. **Métricas**: Creación de la métrica `CuentasDiarias` para analizar el gasto prorrateado por cliente[cite: 50, 54].
+4. **Análisis (EDA)**: Inspección de variables binarias, categóricas y numéricas para detectar inconsistencias y patrones[cite: 29, 55].
+
+## 🚀 Cómo ejecutar
+1. Clona el repositorio.
+2. Asegúrate de tener instaladas las dependencias: `pip install pandas numpy seaborn matplotlib`.
+3. Ejecuta el notebook `TelecomX_LATAM.ipynb` para reproducir el análisis.
