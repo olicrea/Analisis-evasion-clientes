@@ -39,7 +39,11 @@ El análisis sigue una metodología rigurosa dividida en las siguientes etapas:
 
 * **Perfil de Riesgo**: Los clientes adultos mayores (>= 65 años) y aquellos sin pareja o dependientes muestran una mayor propensión al abandono.
 
+![Gráfico de Proporcion de Churn](img/dependents-churn.png)
+
 * **Factores Contractuales**: El tipo de contrato y los cargos mensuales son variables críticas en la decisión de permanencia.
+
+![Gráfico de Proporcion de Churn](img/contract-churn.png)
 
 ## ⚙️ Proceso Técnico
 1. **Extracción**: Carga de datos desde repositorio externo en formato JSON.
