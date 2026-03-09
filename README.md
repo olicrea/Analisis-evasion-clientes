@@ -33,7 +33,8 @@ El análisis sigue una metodología rigurosa dividida en las siguientes etapas:
     * **Conclusiones.**
 
 ## 📊 Hallazgos Principales
-* **Tasa de Abandono**: Se identificó una tasa de churn del **26.5%**, lo que representa que aproximadamente 1 de cada 4 clientes cancela el servicio. 
+* **Tasa de Abandono**: Se identificó una tasa de churn del **26.5%**, lo que representa que aproximadamente 1 de cada 4 clientes cancela el servicio.
+![Gráfico de Proporcion de Churn](img/churn-proportion.png)
 * **Perfil de Riesgo**: Los clientes adultos mayores (>= 65 años) y aquellos sin pareja o dependientes muestran una mayor propensión al abandono.
 * **Factores Contractuales**: El tipo de contrato y los cargos mensuales son variables críticas en la decisión de permanencia.
 
